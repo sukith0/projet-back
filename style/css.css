@@ -1,0 +1,76 @@
+.pink{
+
+    color: rgb(128, 0, 109);
+}
+
+.red{
+
+    color: crimson;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+background-color: rgb(255, 153, 52);
+
+}
+
+
+header { 
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(254, 143, 52);
+
+    display: flex; /*autoriser une liberté dans la box*/
+    flex-direction: column; /* agencement */
+    justify-content: center; /* vertical alignement*/
+    align-items: center; /* aligner en ligne*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+
+
+nav {
+width: 100vw;
+height: 10vh;
+background-color: rgb(168, 122, 36);
+display: flex;
+    flex-direction: row;
+    justify-content: center; /* vertical alignement*/
+    align-items: center; /* aligner en ligne*/
+
+}
+
+.navButton {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    background-color: rgb(124, 91, 16);
+    border-radius: 0.5vh;
+    padding: 2vh;
+    text-align: center;
+    border: rgb(210, 210, 210) 1px solid;
+    transition: 0.2s;
+    transition: 0.2s;
+    width: 25vh;
+    margin-left: 5vh;
+    
+    
+    
+
+}
+
+.navButton:hover {
+
+    background-color: rgb(245, 171, 32);
+    box-shadow: whitesmoke 5px 5px 10px 0px; /* x, y, largeur de diffusion de l'ombre*/
+    transition: 0.2s;
+    transform: translate3d(10px, 10px, 0px);
+
+}
