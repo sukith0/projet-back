@@ -16,6 +16,7 @@
 <?php
     if(isset($_SESSION["nom"])){
   ?> <h2>Bonjour <?php echo $_SESSION["nom"]?></h2>
+    
     <?php
        } else {
     ?>

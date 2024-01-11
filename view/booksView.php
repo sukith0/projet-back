@@ -14,7 +14,17 @@
 
      
     <main>
-    
+        <div class="container">
+        <div class=" line">
+        <div class="titre">Titre</div>
+        <div class="auteur">Auteur</div>
+        <div class="genre">genre</div>
+        <div class="annee">annee</div>
+        <div class="detail">detail</div>
+    </div>
+    </div>
+
+
     </main>
 </body>
 </html>
